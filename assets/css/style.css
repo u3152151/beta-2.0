@@ -1,0 +1,195 @@
+/* CSS File */
+/* Color Pallete
+#e7feff
+#9ad1d4
+#80ced7
+#007ea7
+#003249
+-------------------------------*/
+
+
+/* Basic Page Styles
+-------------------------------*/
+header,
+footer {
+    background-color: #003249;
+}
+
+body {
+    background-color: #e7feff;
+    font-family: sans-serif;
+    margin: 0;
+    word-spacing: 2px;
+}
+
+section {
+    background-color: #007ea7;
+}
+
+.f_inner {
+    background-color: #003249;
+    padding: 40px;
+    margin: 0;
+    min-width: 750px;
+}
+
+.p_inner {
+    background-color: #007ea7;
+    padding: 20px;
+    margin: 0;
+    min-width: 750px;
+}
+
+.b_inner .gallery,
+.b_inner,
+header .h_inner {
+    margin-right: 370px;
+    margin-left: 370px;
+    min-width: 750px;
+}
+
+/* Header and Footer
+-------------------------------*/
+header,
+footer {
+    background-color: #003249;
+}
+
+header h1 a {
+    color: #9ad1d4;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+header h1 a:hover {
+    text-decoration: none;
+    color: #9ad1d4;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: #007ea7;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #9ad1d4;
+}
+
+/* Navigation
+-------------------------------*/
+
+.nav a {
+    color: #007ea7;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: #9ad1d4;
+}
+
+h1 {
+    font-family: monospace;
+    display: inline-block;
+    width: 20%;
+    text-shadow: 1.5px 1.5px #007ea7;
+}
+
+nav {
+    text-align: right;
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.nav li {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+h1,
+.nav {
+    display: inline-block;
+}
+
+/* Pagae content - Headings
+-------------------------------*/
+main h2 {
+    font-size: 24px;
+}
+
+main h3 {
+    font-size: 20px;
+}
+
+main h2,
+main h3 {
+    color: #003249;
+    font-family: sans-serif;
+    text-decoration: underline;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.head1 {
+    margin-top: 20px;
+}
+
+.head2 {
+    margin-top: 10px;
+}
+
+/* Page Content - Paragraphs and Lists
+----------------------------------*/
+
+main p,
+main ul {
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.p1 .parapic01 {
+    float: right;
+    margin-left: 15px;
+    width: 300px;
+}
+
+.p3 {
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #80ced7;
+}
+
+.p_inner h2 {
+    color: #9ad1d4;
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+    min-width: 100%;
+}
+
+.pictures {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.pic01,
+.pic02,
+.pic03,
+.pic04 {
+    width: 100%;
+    vertical-align: top;
+    padding: 10px;
+}
